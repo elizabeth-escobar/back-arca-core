@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/back-arka-core.iml" filepath="$PROJECT_DIR$/.idea/back-arka-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back-arka-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/back-arka-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back-arka-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/back-arka-core.test.iml" />
     </modules>
   </component>
 </project>
