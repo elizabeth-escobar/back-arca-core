@@ -1,0 +1,48 @@
+plugins{
+    id "org.springframework.boot" version '3.5.9' apply false
+}
+
+
+allproject{
+    repositories{
+        mavenCentral()
+        maven {url:"https://repo.spring.io/snapshop"}
+        maven {url:"https://repo.spring.io/milestone"}
+    }
+
+subproject{
+    group = 'com.arka'
+    version = '0.0.1'
+    description = 'plataforma e-commerce'
+
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+}
+
+
+
+dependencies {
+    implementation platform ('org.springframework.boot:spring-boot-dependencies')
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
+
+
+    implementation ('org.springframework.boot:spring-boot-starter-data-jpa')
+    runtimeOnly ('org.postgresql:postgresql')
+
+
+
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testRuntimeOnly('org.junit.platform:junit-platform-launcher')
+    testCompileOnly("org.projectlombok:lombok:1.18.42")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
+}
+
+

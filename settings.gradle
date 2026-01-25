@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {}
+    mavenCentral()
+}
+
+
+rootProject.name = 'back-arka-core'
+
+include(":api-rest", ":jpa-repository", ":usecase", ":model")
+
+project(":api-rest").projectDir =
+        file("infrastructure/entry-points/api-rest")
+
+project(":jpa-repository").projectDir =
+        file("infrastructure/driven-adapters/jpa-repository")
+
+
+project(":model").projectDir =
+        file("domain/model")
+
+project(":usecase").projectDir =
+        file("domain/usecase")

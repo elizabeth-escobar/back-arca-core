@@ -3,4 +3,9 @@ dependencies{
     implementation project(":usecase")
     implementation ":org.springframework.boot:spring-boot-starter-web"
     implementation ":org.springframework.boot:spring-boot-starter-actuator"
+    implementation ":org.springframework.boot:spring-boot-starter-undertow"
+}
+
+configuration{
+    implementation.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
 }
