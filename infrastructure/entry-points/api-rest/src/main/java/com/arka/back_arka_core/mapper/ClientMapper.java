@@ -1,10 +1,12 @@
-package com.arka.back_arka_core.mappers;
+package com.arka.back_arka_core.mapper;
 
-import com.arka.back_arka_core.entities.Cliente;
+import com.arka.back_arka_core.domain.model.Cliente;
 import com.arka.back_arka_core.request.ClientRequest;
 import com.arka.back_arka_core.response.ClientResponse;
 
 public class ClientMapper {
+
+    // Cambiamos el nombre para que coincida con lo que pusiste en el controlador
     public static Cliente fromRequest(ClientRequest clientRequest){
         return Cliente.builder()
                 .nombre(clientRequest.getNombre())
@@ -14,7 +16,8 @@ public class ClientMapper {
                 .build();
     }
 
-    public static ClientResponse fromResponse(Cliente cliente){
+    // Cambiamos el nombre para que coincida con el controlador
+    public static ClientResponse fromDomain(Cliente cliente){
         return ClientResponse.builder()
                 .nombre(cliente.getNombre())
                 .apellido(cliente.getApellido())

@@ -8,3 +8,11 @@ dependencies{
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
 
 }
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
