@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/back-arka-core.iml" filepath="$PROJECT_DIR$/.idea/back-arka-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back-arka-core.iml" filepath="$PROJECT_DIR$/.idea/modules/back-arka-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/api-rest/back-arka-core.api-rest.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back-arka-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/back-arka-core.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back-arka-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/back-arka-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jpa-repository/back-arka-core.jpa-repository.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/back-arka-core.model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/back-arka-core.usecase.test.iml" />
     </modules>
   </component>
 </project>

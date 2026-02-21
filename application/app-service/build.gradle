@@ -2,9 +2,17 @@ apply plugin: 'org.springframework.boot'
 dependencies{
     implementation project(":api-rest")
     implementation project(":jpa-repository")
-    implementation project(":model")
-    implementation project(":usecase")
-    implementatio project ('org.springframework.boot:spring-boot-starter')
+    //implementation project(":model")
+    //implementation project(":usecase")
+    implementation project ('org.springframework.boot:spring-boot-starter')
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
 
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
 }
